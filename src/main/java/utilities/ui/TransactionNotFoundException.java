@@ -1,0 +1,1 @@
+package utilities.ui;public class TransactionNotFoundException extends Exception{    public TransactionNotFoundException(String s){        super(s);    }}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Methods">
+    <!--    <test name="OLS_Login_And_ChangePassword_Scenarios">-->
+    <!--        <parameter name="UserName" value="ChangeUserName"/>-->
+    <!--        <parameter name="Password" value="ChangePassWord"/>-->
+    <!--        <classes>-->
+    <!--            <class name="testRunners.OLS.RunnerClassAPasswordChange"/>-->
+    <!--            <class name="testRunners.OLS.RunnerClassFooterModule"/>-->
+    <!--            <class name="testRunners.OLS.RunnerClassYHomeModule"/>-->
+    <!--            <class name="testRunners.OLS.RunnerClassZLoginModule"/>-->
+    <!--            <class name="testRunners.OLS.RunnerClassCAccessGroupPermissions"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+<!--    <test name="OLS_UI">-->
+<!--        <parameter name="UserName" value="OLSUserName"/>-->
+<!--        <parameter name="Password" value="OLSPassWord"/>-->
+<!--        <classes>-->
+            <!--            <class name="testRunners.OLS.RunnerClassAccountInformation"/>-->
+            <!--&lt;!&ndash;            <class name="testRunners.OLS.RunnerClassBUsersModule"/>&ndash;&gt;-->
+            <!--            <class name="testRunners.OLS.RunnerClassCostCentresModule"/>-->
+            <!--            <class name="testRunners.OLS.RunnerClassContactsModule"/>-->
+            <!--            <class name="testRunners.OLS.RunnerClassDriversModule"/>-->
+            <!--            <class name="testRunners.OLS.RunnerClassVehiclesModule"/>-->
+            <!--            <class name="testRunners.OLS.RunnerClassAReportsModule"/>-->
+            <!--            <class name="testRunners.OLS.RunnerClassBHomeDashboardModule"/>-->
+            <!--&lt;!&ndash;            <class name="testRunners.OLS.RunnerClassOLSTransactions"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;            <class name="testRunners.OLS.RunnerClassOLSAuthorisations"/>&ndash;&gt;-->
+            <!--            <class name="testRunners.OLS.RunnerClassCardsModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassNewTestCasesOfOLSUser"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+        <test name="OMV_UI_Country_User">
+            <parameter name="UserName" value="CountryUserName"/>
+            <parameter name="Password" value="CountryPassword"/>
+            <classes>
+                <class name="testRunners.OMVCountryUser.OMVRunnerCardsModuleCountryUser"/>
+                            <class name="testRunners.OMVCountryUser.OMVRunnerCardActionsCountryUser"/>
+                            <class name="testRunners.OMVCountryUser.OMVRunnerClassSwitchContextToAccountModuleCountryUser"/>
+                            <class name="testRunners.OMVCountryUser.OMVRunnerAccountsModuleCountryUser"/>
+                            <class name="testRunners.OMVCountryUser.OMVRunnerClassSearchModuleCountryUser"/>
+    <!--&lt;!&ndash;            <class name="testRunners.OMVCountryUser.OMVRunnerTransactionsModuleCountryUser"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;            <class name="testRunners.OMVCountryUser.OMVRunnerAuthorizationsModuleCountryUser"/>&ndash;&gt;-->
+    <!--                        <class name="testRunners.OMVCountryUser.OMVRunnerAddPricingRuleModuleCountryUser"/>-->
+    <!--                        <class name="testRunners.OMVCountryUser.OMVRunnerAddPricingBonusModuleCountryUser"/>-->
+                            <class name="testRunners.OMVCountryUser.OMVRunnerVehiclesCountryUser"/>
+                            <class name="testRunners.OMVCountryUser.OMVRunnerDriversCountryUser"/>
+            </classes>
+        </test>
+    <!--    <test name="OMV_UI_Client_User">-->
+    <!--        <parameter name="UserName" value="ClientUserName"/>-->
+    <!--        <parameter name="Password" value="ClientPassWord"/>-->
+    <!--        <classes>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerCardsModuleClientUser"/>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerCardActionsClientUser"/>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerClassSwitchContextToAccountModule"/>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerAccountsModule"/>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerClassSearchModule"/>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerTransactionsModule"/>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerAuthorizationsModule"/>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerAddPricingRuleModule"/>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerAddPricingBonusModule"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="OMV_Login_Scenarios">-->
+    <!--        <parameter name="UserName" value="CountryUserName"/>-->
+    <!--        <parameter name="Password" value="CountryPassword"/>-->
+    <!--        <classes>-->
+    <!--            <class name="testRunners.OMV.OMVRunnerClassLoginModule"/>-->
+    <!--            <class name="testRunners.OMVCountryUser.OMVRunnerClassLoginModuleCountryUser"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--        <test name="OMV_API">-->
+    <!--            <parameter name="UserName" value="UserNameAPI"/>-->
+    <!--            <parameter name="Password" value="PassWordAPI"/>-->
+    <!--            <classes>-->
+    <!--                <class name="testRunners.OMV.OMVRunnerClassAPILoginModule"/>-->
+    <!--                <class name="testRunners.OMV.OMVRunnerClassAPILookups"/>-->
+    <!--                <class name="testRunners.OMV.OMVRunnerClassAPIAccountsModule"/>-->
+    <!--                <class name="testRunners.OMV.OMVRunnerClassAPITransactionsModule"/>-->
+    <!--                <class name="testRunners.OMV.OMVRunnerClassAPIAuthorisationsModule"/>-->
+    <!--                <class name="testRunners.OMV.OMVRunnerClassAPICardsPinModule"/>-->
+    <!--                <class name="testRunners.OMV.OMVRunnerClassAPICardsModule"/>-->
+    <!--                <class name="testRunners.OMV.OMVRunnerClassAPIDriversVehiclesAndCostCentresModule"/>-->
+    <!--            </classes>-->
+    <!--        </test>-->
+    <!--    <test name="OLS_API">-->
+    <!--        <parameter name="UserName" value="UserNameAPI"/>-->
+    <!--        <parameter name="Password" value="PassWordAPI"/>-->
+    <!--        <classes>-->
+    <!--            <class name="testRunners.OLS.RunnerClassAPILoginModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPICostCentresModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPIContactsModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPIDriversAndVehiclesModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPITransactionsModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPIAuthorisationsModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPICardsModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPIAccountsModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPIUserModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPIReportsModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPIHomeDashboard"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPILogoutModule"/>-->
+    <!--                        <class name="testRunners.OLS.RunnerClassAPIAccessGroupModule"/>-->
+    <!--                        <class name="testRunners.OMV.RunnerClassValidationControls"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+</suite>

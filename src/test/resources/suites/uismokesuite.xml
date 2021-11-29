@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="smoke_suite">
+    <test name="OLS_Login_And_ChangePassword_Scenarios">
+        <parameter name="UserName" value="ChangeUserName"/>
+        <parameter name="Password" value="ChangePassWord"/>
+        <classes>
+            <class name="testRunners.OLS.RunnerClassAPasswordChange"/>
+            <class name="testRunners.OLS.RunnerClassZLoginModule"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="smoke_suite">
+    <listeners>
+        <listener class-name="listeners.ITestListenerImpl"></listener>
+    </listeners>
+    <test name="APITest">
+        <classes>
+<!--            <class name="testRunners.OLS.RunnerClassAPILoginModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPICostCentresModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPIContactsModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPIDriversAndVehiclesModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPITransactionsModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPICardsModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPIAccountsModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPIUserModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPIReportsModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAPILogoutModule"/>-->
+<!--                <class name="testRunners.OLS.RunnerClassAPIAccessGroupModule"/>-->
+
+            <!--            <class name="testRunners.OLS.RunnerClassAPIDataSetupModule"/>-->
+
+            <class name="testRunners.OLS.RunnerClassAPasswordChange"/>
+<!--            <class name="testRunners.OLS.RunnerClassFooterModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassAccountInformation"/>-->
+<!--            <class name="testRunners.RunnerClassUsersModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassCostCentresModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassContactsModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassYHomeModule"/>-->
+<!--            <class name="testRunners.OLS.RunnerClassZLoginModule"/>-->
+        </classes>
+    </test>
+</suite>
